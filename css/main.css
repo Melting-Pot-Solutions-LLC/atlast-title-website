@@ -234,7 +234,18 @@ z-index: 9999;}
 display:inline-block;
 padding : 0;
 position : relative;
+
 }
+.css-border:hover{
+box-shadow: inset 0px 5px 0px 0px #292929;
+}
+
+@media screen and (min-width: 1200px) {
+	.css-border {
+		width: 180px;
+	}
+}
+
 .main-menu >ul>li>a{
 display: block;
 font-size: 16px;
@@ -243,14 +254,16 @@ padding: 34px 16px;
 text-decoration: none;
 text-transform: capitalize;
 transition: all 0.4s ease 0s;position:relative;
-color:#fff;
 }
+
+
 .main-menu ul li ul:hover .main-menu ul li > a{
   background: #ddd;
 }
 .main-menu ul li a:hover {
 transition : all 0.4s 0s ease;
-color:#fab909
+color: #fab909;
+
 }
 
 .main-menu ul ul {
@@ -278,7 +291,10 @@ width : 200px;
 	font-weight: 600;
 	font-size: 14px;
 	text-transform: capitalize;
-	width:100%
+	width:100%;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #292929;
 }
 .main-menu ul ul li a:hover {
 background:#fff
@@ -294,6 +310,7 @@ left : 100%;
 font-size: 13px;
 margin-left: 6px;
 color: #fff;
+
 }
 .menu-icon {
 	display: inline-block;

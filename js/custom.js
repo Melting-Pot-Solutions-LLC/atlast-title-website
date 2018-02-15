@@ -34,7 +34,7 @@ $(document).ready(function(){
 		
 		/*
 		Slider Crousel
-		============================*/ 
+		============================*/
 		$(".all-slide").owlCarousel({
             items: 1,
             nav: false,
