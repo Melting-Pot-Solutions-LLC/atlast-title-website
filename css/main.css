@@ -488,7 +488,7 @@ transition: all 0.4s ease 0s;
 .service2-item::before {
 	position: absolute;
 	content: "";
-	background-image: url(../img/why-choose-bg.png);
+	//background-image: url(../img/why-choose-bg.png);
 	width: 413px;
 	height: 342px;
 	bottom: -244px;
@@ -519,10 +519,10 @@ transition: all 0.4s ease 0s;
   height: 650px;
 }
 .all-slide .single-slide {
-background-position: center center;
-background-size: cover;
-height: 100%;
-background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
 }
 .slider-text {
 	left: 0;
@@ -2708,3 +2708,4 @@ transition: all 0.5s ease-out 0s;background:#fab909;color:#fff;border-color:#fab
 }
 
 /* The End */
+

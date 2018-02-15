@@ -40,10 +40,10 @@ $(document).ready(function(){
             nav: false,
 			navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
             dots: true,
-            autoplay: true,
+            autoplay: false,
             loop: true,
-    animateOut: 'slideOutDown',
-    animateIn: 'flipInX',
+   			animateOut: 'slideOutDown',
+   			animateIn: 'flipInX',
             mouseDrag: false,
             touchDrag: false,
         });
