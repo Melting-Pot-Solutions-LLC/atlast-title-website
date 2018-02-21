@@ -40,7 +40,7 @@ $(document).ready(function(){
             nav: false,
 			navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
             dots: true,
-            autoplay: false,
+            autoplay: true,
             loop: true,
    			animateOut: 'slideOutDown',
    			animateIn: 'flipInX',
