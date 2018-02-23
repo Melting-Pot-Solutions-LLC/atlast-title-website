@@ -464,26 +464,36 @@ visibility: hidden;z-index:2;transform:scale(0)
 }
 .service2-inner:hover.service2-inner::before{
 height:0;
-transition: all 0.4s ease 0s;	
+transition: all 0.4s ease 0s;
+
 }
 .service2-inner:hover .service2-details h2 a{color:#fff;}
-.service2-inner:hover .service2-details{color:#f2f2f2;}
+.service2-inner:hover .service2-details{color:black;}
 .service2-inner{
-	background: #292929;
+	background: #fab909;
 	margin-bottom: 25px;
 	display:inline-block;
 	position:relative;
 	z-index:3
 }
 .service2-inner .media{
-	padding: 10px;	
+	padding: 10px;
 }
-.service2-details h2{margin-top:10px;margin-bottom:10px}
+
+.services-img{
+	width: 100%;
+	height: 220px;
+}
+
+
+
+.service2-details h2{margin-top:10px;margin-bottom:10px;}
 .service2-details h2 a {
 	display: inline-block;
 	width: 100%;
 	font-size: 20px;
 }
+
 .service2-sec:hover .service2-item::before{bottom: -144px;transition-delay: .9s;}
 .service2-item::before {
 	position: absolute;
