@@ -546,7 +546,7 @@ transition: all 0.4s ease 0s;
 	margin: 0px auto;
 }
 .slider-wraper {
-	width: 700px;
+	width: 800px;
 	overflow: hidden;
 	padding: 20px 10px;
 	position: relative;
@@ -1646,7 +1646,7 @@ padding : 6px;
 15.Testimonial Section
 =========================*/
 .testimonial-sec {
-	background-image: url("../img/testimonial_bg.jpg");
+	background-image: url("../img/clients.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
