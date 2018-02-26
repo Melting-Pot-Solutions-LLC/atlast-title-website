@@ -2562,7 +2562,7 @@ overflow:hidden;
 .appointment-form::after {
 	position: absolute;
 	content: "";
-	background-image: url(../img/customer-support.png);
+	background-image: url(../img/pen.jpg);
 	width: 413px;
 	height: 342px;
 	bottom: -75px;
