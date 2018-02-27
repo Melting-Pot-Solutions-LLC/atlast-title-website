@@ -115,8 +115,16 @@ textarea:focus, input:focus{
 
 }
 
-.col {
-    flex: 1 0 50% !important;
+.flex{
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap:wrap;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.flex:before, .flex:after{
+    display: none;
 }
 
 .images-overlay {
