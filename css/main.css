@@ -114,6 +114,11 @@ textarea:focus, input:focus{
   top: 0;z-index:1
 
 }
+
+.col {
+    flex: 1 0 50% !important;
+}
+
 .images-overlay {
 background-color: rgba(18, 188, 0, 0.96);
 height: 100%;
