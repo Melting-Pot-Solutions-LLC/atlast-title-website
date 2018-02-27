@@ -389,7 +389,7 @@ visibility: hidden;z-index:2;transform:scale(0)
 	left: 40px;
 	top: 0;
 	transform: skewX(-48deg);
-	width: 120%;
+	width: 110%;
 	z-index: -1;
 }
 .hd-style1 .hd-rgt a {
@@ -2378,6 +2378,10 @@ padding-left: 0;
 footer {
   background: #282828;
   position: relative;
+}
+
+#owner_footer{
+    margin-top: 150px;
 }
 .footer-sec {
 padding-top: 100px;
