@@ -79,7 +79,7 @@
 						<div class="col-md-12 nav-menu">
 							<div class="col-md-3">
 								<div class="logo">
-									<a href="index.html"><img src="img/atlas_logo.png" alt="" style="height: 50px;"/></a>
+									<a href="index.html"><img src="img/atlas_logo.png"/></a>
 								</div>
 								<br>
 							</div>
@@ -188,23 +188,25 @@
 					</div>
 				</div>
 				<div class="col-md-8">
+					<form id="my_form">
 					<div class="contact-field">
 						<h2>Write Your Message</h2>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="single-input-field">
-								<input placeholder="Full Name" type="text">
+								<input placeholder="Full Name" name="name" type="text">
 							</div>
 						</div>							
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="single-input-field">
-								<input placeholder="Your E-mail" type="email">
+								<input placeholder="Your E-mail" name="email" type="email">
 							</div>
 						</div>							
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="single-input-field">
-								<input placeholder="Phone" type="text">
+								<input placeholder="Phone" name="number" type="text">
 							</div>
-						</div>						
+						</div>
+						<!--
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="select-arrow">
 								<select>
@@ -216,10 +218,11 @@
 									<option value="Appartment Clean">Appartment Clean</option>
 								</select>
 							</div>
-						</div>						
+						</div>
+						-->
 						<div class="col-md-12 message-input">
 							<div class="single-input-field">
-								<textarea placeholder="Message"></textarea>
+								<textarea placeholder="Message" name="message"></textarea>
 							</div>
 						</div>
 						<div class="col-md-12 message-input">
@@ -227,7 +230,9 @@
 								<input value="send now " type="submit">
 							</div>
 						</div>
-					</div>				
+					</div>
+					</form>
+					<p id="main-nav" hidden>Message send</p>
 				</div>
 			</div>
 		</div>
@@ -368,6 +373,8 @@
 	<script src="js/jquery.meanmenu.min.js"></script>
 	<script src="js/jquery.sticky.js"></script>
 	<script src="js/custom.js"></script>
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script src="js/message.js"></script>
 	<!-- Scripts Js End -->	
 </body>
 </html>

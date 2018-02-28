@@ -230,8 +230,13 @@ width: 100%;
 z-index: 9999;}
 
 .logo {
-  padding-top: 30px; transition: all 0.36s ease-out 0s;position:relative;z-index:2
+  padding-top: 5px; transition: all 0.36s ease-out 0s;position:relative;z-index:2
 }
+
+.logo a img {
+    height: 70px;
+}
+
 .mnmenu-sec {
 	background: rgba(221, 221, 221, 0.0);
 
