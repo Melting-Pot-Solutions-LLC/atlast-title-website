@@ -2574,7 +2574,7 @@ overflow:hidden;
 .appointment-form::before {
 	background-color:#fab909;
 	content: "";
-	height: 120%;
+	height: 200%;
 	left: -35px;
 	position: absolute;
 	top: 0;
