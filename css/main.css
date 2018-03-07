@@ -115,6 +115,10 @@ textarea:focus, input:focus{
 
 }
 
+#special p{
+	margin-bottom: 90px;
+}
+
 .flex{
     display: flex;
     display: -webkit-flex;
